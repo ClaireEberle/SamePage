@@ -11,7 +11,10 @@ struct RegistrationView: View {
     var body: some View {
         VStack {
             // Header
-            HeaderView()
+            HeaderView(title: "Sign Up",
+                       subtitle: "Start organizing to-do's",
+                       angle: -15, background: .yellow)
+            Spacer()
         }
     }
 }
