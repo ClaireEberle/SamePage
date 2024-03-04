@@ -16,15 +16,24 @@ struct RegistrationView: View {
             // Header
             HeaderView(title: "Sign Up",
                        subtitle: "Start organizing to-do's",
-                       angle: -15, background: .yellow)
+                       angle: -15, background: .orange)
             
             Form {
                 TextField("Full Name", text: $name)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
                 TextField("Email Address", text: $email)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocapitalization(.none)
+                    .autocorrectionDisabled()
                 SecureField("Password", text: $password)
                     .textFieldStyle(DefaultTextFieldStyle())
+                
+                TLButton(title: "Create Account",
+                         background: .green
+                ) {
+                    //Attempt Registration
+                }
             }
             .offset(y: -50)
             
