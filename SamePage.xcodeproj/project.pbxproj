@@ -59,6 +59,7 @@
 		7FBC2C2D2B6ECDB500EEDAFB /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C2C2B6ECDB500EEDAFB /* ToDoListItemViewViewModel.swift */; };
 		7FBC2C2F2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C2E2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift */; };
 		7FBC2C312B6ED4E400EEDAFB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C302B6ED4E400EEDAFB /* HeaderView.swift */; };
+		7FBC2C332B9655D900EEDAFB /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C322B9655D900EEDAFB /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		7FBC2C2C2B6ECDB500EEDAFB /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		7FBC2C2E2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListDogItemViewViewModel.swift; sourceTree = "<group>"; };
 		7FBC2C302B6ED4E400EEDAFB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7FBC2C322B9655D900EEDAFB /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				7FBC2C152B6ECC2100EEDAFB /* ToDoListItemView.swift */,
 				7FBC2C172B6ECC3B00EEDAFB /* ToDoListDogItemView.swift */,
 				7FBC2C302B6ED4E400EEDAFB /* HeaderView.swift */,
+				7FBC2C322B9655D900EEDAFB /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				7FBC2C2F2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift in Sources */,
 				7FBC2C2D2B6ECDB500EEDAFB /* ToDoListItemViewViewModel.swift in Sources */,
 				7FBC2C1C2B6ECCAF00EEDAFB /* ToDoListItem.swift in Sources */,
+				7FBC2C332B9655D900EEDAFB /* TLButton.swift in Sources */,
 				7FBC2C0C2B6ECAF000EEDAFB /* ToDoListView.swift in Sources */,
 				7FBC2C292B6ECD8B00EEDAFB /* RegistrationViewViewModel.swift in Sources */,
 				7FBC2C312B6ED4E400EEDAFB /* HeaderView.swift in Sources */,
