@@ -60,6 +60,7 @@
 		7FBC2C2F2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C2E2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift */; };
 		7FBC2C312B6ED4E400EEDAFB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C302B6ED4E400EEDAFB /* HeaderView.swift */; };
 		7FBC2C332B9655D900EEDAFB /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C322B9655D900EEDAFB /* TLButton.swift */; };
+		7FBC2C352B9E2DAC00EEDAFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC2C342B9E2DAC00EEDAFB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		7FBC2C2E2B6ECDCD00EEDAFB /* ToDoListDogItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListDogItemViewViewModel.swift; sourceTree = "<group>"; };
 		7FBC2C302B6ED4E400EEDAFB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7FBC2C322B9655D900EEDAFB /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		7FBC2C342B9E2DAC00EEDAFB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				7FBC2BC22B6EC2EC00EEDAFB /* Assets.xcassets */,
 				7FBC2C032B6EC54A00EEDAFB /* GoogleService-Info.plist */,
 				7FBC2BBE2B6EC2EA00EEDAFB /* SamePageApp.swift */,
+				7FBC2C342B9E2DAC00EEDAFB /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				7FBC2C182B6ECC3B00EEDAFB /* ToDoListDogItemView.swift in Sources */,
 				7FBC2C0E2B6ECB3800EEDAFB /* NewItemView.swift in Sources */,
 				7FBC2C1E2B6ECCFD00EEDAFB /* MainViewViewModel.swift in Sources */,
+				7FBC2C352B9E2DAC00EEDAFB /* Extensions.swift in Sources */,
 				7FBC2C162B6ECC2100EEDAFB /* ToDoListItemView.swift in Sources */,
 				7FBC2C212B6ECD4600EEDAFB /* ProfileViewViewModel.swift in Sources */,
 				7FBC2C142B6ECBC100EEDAFB /* ToDoListDogView.swift in Sources */,
