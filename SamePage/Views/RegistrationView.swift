@@ -34,6 +34,7 @@ struct RegistrationView: View {
                          background: .green
                 ) {
                     //Attempt Registration
+                    viewModel.register()
                 }
             }
             .offset(y: -50)
