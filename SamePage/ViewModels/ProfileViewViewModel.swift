@@ -8,5 +8,12 @@
 import Foundation
 
 class ProfileViewViewModel: ObservableObject {
+    @Published var title = ""
+    @Published var dueDate = Date()
+    
     init() {}
+    
+    func save() {
+        
+    }
 }
