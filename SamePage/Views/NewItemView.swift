@@ -30,20 +30,32 @@ struct NewItemView: View {
                     title: "Save",
                     background: .pink
                 ) {
-                    viewModel.save()
-                    newItemPresented = false
+                    if viewModel.canSave {
+                        viewModel.save()
+                        newItemPresented = false
+                    } else {
+                        viewModel.showAlert = true
+                    }
+                    
                 }
-                         .padding()
+                .padding()
+                
             }
-            
+            .alert(isPresented: $viewModel.showAlert) {
+                Alert(
+                    title: Text( "Error"),
+                    message: Text("Please fill in all fields and select due date that is today or newer.")
+                )
+            }
         }
     }
 }
+    
+    #Preview {
+        NewItemView(newItemPresented: Binding(get: {
+            return true
+        }, set: { _ in
+            
+        }))
+    }
 
-#Preview {
-    NewItemView(newItemPresented: Binding(get: {
-        return true
-    }, set: { _ in
-        
-    }))
-}
